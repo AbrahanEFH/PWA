@@ -1,11 +1,11 @@
 const nombreCache = 'apv-v1'
 const archivos = [
-    '/',
-    '/index.html',
-    '/css/bootstrap.css',
-    '/.css.styles.css',
-    '/js/app.js',
-    '/js/apv.js'
+    "/",
+    "/index.html",
+    "/css/bootstrap.css",
+    "/css/styles.css",
+    "/js/app.js",
+    "/js/apv.js",
 ]
 
 
