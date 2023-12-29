@@ -1,3 +1,12 @@
+const archivos = [
+    '/',
+    '/index.html',
+    '/css/bootstrap.css',
+    '/.css.styles.css',
+    '/js/app.js',
+    '/js/apv.js'
+]
+
 
 
 self.addEventListener('install', e => {
