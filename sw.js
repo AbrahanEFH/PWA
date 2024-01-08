@@ -39,8 +39,8 @@ self.addEventListener('fetch', e => {
     e.respondWith(
         caches.match(e.request)
             .then(respuestaCache => {
-                return respuestaCache
+                return respuestaCache ? respuestaCache : caches.match('./error.html')
             })
-            .catch(() => caches.match('/error.html'))
+
     )
 })
