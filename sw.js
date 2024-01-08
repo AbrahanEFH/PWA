@@ -7,6 +7,7 @@ const archivos = [
     "/css/styles.css",
     "/js/app.js",
     "/js/apv.js",
+    "/manifest.json",
 ]
 
 
